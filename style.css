@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #faf9f9;
+}
+p{
+  font-size: 14px !important;
+}
+h2,h5,h4,h3,p{
+    color: #464646;
+}
+.container{
+  width: 70% !important;
+  margin: auto;
+}
+
+/****************************** header area ******************************/
+#header-area{
+  background: rgba(0,0,0,.5);
+}
+
+
+
+/********************************* bg area *********************************/
+#bg-area{
+  background: url(img/bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 150px 0;
+}
+#bg-area h2{
+  font-size: 45px;
+}
+
+.btn-red{
+  background: #e92121;
+  padding: 7px 22px;
+  border-radius: 0;
+  font-weight: bold;
+}
+.btn-white{
+  padding: 7px 20px;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+
+
+
+/******************************** history area ********************************/
+#history-area{
+  padding: 70px 0 40px;
+}
+#history-area h2{
+  margin-top: 100px;
+  color: #464646;
+}
+#history-area p{
+  font-weight: 300;
+}
+
+
+
+/********************************* work area *********************************/
+#work-area{
+  color: #464646;
+}
+.work-header p{
+  font-weight: 300;
+}
+.work-column h4{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+
+/******************************* marquery area *******************************/
+#marquery-area{
+  background: #ecf0f1;
+  padding: 100px 0 30px;
+  position: relative;
+}
+
+.slide-img img{
+  width: 100% !important;
+  height: auto;
+  float: right;
+}
+
+#marquery-area .prev,
+#marquery-area .next {
+	background: #fff;
+	color: #666;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 5px 20px;
+	position: absolute;
+	z-index: 9999;
+	top: 30%;
+}
+
+#marquery-area .prev {
+	left: 0;
+}
+#marquery-area .next {
+	right: 0;
+}
+
+
+
+
+
+/******************************* jewelery area *******************************/
+#jewelery-area{
+  color: #464646;
+  padding: 70px 0;
+}
+.jewelery-top h2{
+  margin-top: 70px;
+}
+
+.jewelery-bottom .custom-hr{
+  margin-left: 0;
+}
+.jewelery-bottom .j-btm{
+  font-size: 14px;
+}
+
+.hover-scale img{
+  transition: .5s;
+}
+.hover-scale img:hover{
+  transform: scale(1.1);
+}
+
+
+
+/******************************** customer-area ********************************/
+#customer-area{
+  background: #ecf0f1;
+}
+
+.customer-column .fas{
+  height: 35px;
+  width: 35px;
+  padding: 11px;
+  border-radius: 50%;
+  font-size: 12px;
+  background: #e92121;
+  color: #fff;
+}
+
+
+
+/********************************** gallery area **********************************/
+#gallery-area{
+  padding: 90px 0 70px;
+}
+
+
+
+/****************************** footer area ******************************/
+#footer-area{
+  background: #141414;
+}
+#footer-area a{
+  color: #999;
+}
+#footer-area p{
+  color: #999;
+}
